@@ -1,6 +1,6 @@
 package com.kyee.chis.db_show.dao.entity;
 
-public class tableDetails {
+public class TableDetails {
 
     private Integer id;
 
@@ -18,7 +18,7 @@ public class tableDetails {
         return id;
     }
 
-    public tableDetails setId(Integer id) {
+    public TableDetails setId(Integer id) {
         this.id = id;
         return this;
     }
@@ -27,7 +27,7 @@ public class tableDetails {
         return fieldName;
     }
 
-    public tableDetails setFieldName(String fieldName) {
+    public TableDetails setFieldName(String fieldName) {
         this.fieldName = fieldName;
         return this;
     }
@@ -36,7 +36,7 @@ public class tableDetails {
         return tableId;
     }
 
-    public tableDetails setTableId(Integer tableId) {
+    public TableDetails setTableId(Integer tableId) {
         this.tableId = tableId;
         return this;
     }
@@ -45,7 +45,7 @@ public class tableDetails {
         return isPrimary;
     }
 
-    public tableDetails setIsPrimary(Integer isPrimary) {
+    public TableDetails setIsPrimary(Integer isPrimary) {
         this.isPrimary = isPrimary;
         return this;
     }
@@ -54,7 +54,7 @@ public class tableDetails {
         return isNull;
     }
 
-    public tableDetails setIsNull(Integer isNull) {
+    public TableDetails setIsNull(Integer isNull) {
         this.isNull = isNull;
         return this;
     }
@@ -63,7 +63,7 @@ public class tableDetails {
         return defauleValue;
     }
 
-    public tableDetails setDefauleValue(String defauleValue) {
+    public TableDetails setDefauleValue(String defauleValue) {
         this.defauleValue = defauleValue;
         return this;
     }
